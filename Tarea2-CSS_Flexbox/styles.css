@@ -1,0 +1,24 @@
+.barra-navegacion {
+    display: flex;
+    justify-content: center;
+    background-color: #9d9999;
+    padding: 10px;
+}
+
+.barra-navegacion ul {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.barra-navegacion a  {
+    padding-top: 20px;
+    color: rgb(0,0,0);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.barra-navegacion a:hover  {
+    color: rgb(40, 1, 236);
+}
