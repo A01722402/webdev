@@ -1,0 +1,22 @@
+.rectangle {
+    background: tomato;
+    padding: 5px;
+    width: 150px; 
+    /*height: 75px;*/
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 75px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  } 
+  
+  .micontenedor{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+  
+  
+  
