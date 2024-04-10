@@ -1,0 +1,36 @@
+/* Top List (Tareas de Guillermo: ) */
+
+.topli {
+    list-style: "> ";
+    padding-top: 5px;
+}
+
+.topli a {
+    text-decoration: none;
+    color: black;
+}
+
+.topli a:hover{
+    text-decoration: underline;
+    color: rgb(24, 148, 55);
+    font-size: 20px;
+}
+
+/* Bottom List (Proyectos aparte:) */
+
+.bottomli {
+    list-style: "> ";
+    padding-top: 5px;
+}
+
+.bottomli a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottomli a:hover{
+    text-decoration: underline;
+    color: rgb(24, 148, 55);
+    font-size: 20px;
+}
+
