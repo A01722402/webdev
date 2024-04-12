@@ -1,15 +1,9 @@
-.barra-navegacion {
-    display: flex;
-    justify-content: center;
-    background-color: #9d9999;
-    padding: 10px;
-}
-
 .barra-navegacion ul {
+    display: flex;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    text-align: center;
+    justify-content: space-around;
 }
 
 .barra-navegacion a  {
