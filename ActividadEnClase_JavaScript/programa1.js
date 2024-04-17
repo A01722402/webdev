@@ -167,3 +167,96 @@ let removedItem = fruits.splice(pos, 1)
 
 */
 
+function veggies(){
+    vegetales = ["Zanahoria", "Papa", "Lechuga", "Espinaca"]
+    for (var i = 0; i < vegetales.length; i++){
+        console.log("Amo la " + vegetales[i])
+    }
+}
+
+function forlooper(){
+    for (var i = 1; i <= 10; i++){
+        console.log(i)
+    }
+}
+
+function createCar() {
+    class Car {
+        constructor(brand, model, year){
+            this.brand = brand
+            this.model = model
+            this.year = year
+        }
+    
+        static init() {
+            console.log(Example.instance); // ReferenceError if `instance` is accessed before being declared
+        }
+    
+        setBrand(newBrand){
+            this.brand = newBrand
+        }
+    
+        setModel(newModel){
+            this.model = newModel
+        }
+    
+        setYear(newYear){
+            this.year = newYear
+        }   
+    
+        showCar(){
+            console.log(`Este carro es un ${this.brand} ${this.model} del año ${this.year}`)
+        }
+    }
+    const brand = document.getElementById("carroBrand").value;
+    const model = document.getElementById("carroModel").value;
+    const year = document.getElementById("carroAno").value;
+
+    var carObject = new Car(brand, model, year);
+
+    function sendToConsole() {
+        if (carObject) {
+            carObject.showCar();
+        } else {
+            console.log("Primero debes crear un objeto carro.");
+        }
+    }
+}
+
+function carConsole(){
+    class Car {
+        constructor(brand, model, year){
+            this.brand = brand
+            this.model = model
+            this.year = year
+        }
+    
+        static init() {
+            console.log(Example.instance); // ReferenceError if `instance` is accessed before being declared
+        }
+    
+        setBrand(newBrand){
+            this.brand = newBrand
+        }
+    
+        setModel(newModel){
+            this.model = newModel
+        }
+    
+        setYear(newYear){
+            this.year = newYear
+        }   
+    
+        showCar(){
+            console.log(`Este carro es un ${this.brand} ${this.model} del año ${this.year}`)
+        }
+    }
+
+    let carObject = new Car("Toyota", "Corolla", 2021);
+    console.log("carObject.setBrand(Honda), carObject.setModel(Civic), carObject.setYear(2020)")
+    carObject.setBrand("Honda");
+    carObject.setModel("Civic");
+    carObject.setYear(2020);
+    console.log("carObject.showCar()")
+    carObject.showCar();
+}

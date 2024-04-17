@@ -11,6 +11,11 @@
 
 <body>
     <div>
+        <h1>Código fuente disponible en <a href="https://github.com/A01722402/webdev/tree/main/ActividadEnClase_JavaScript">Github</a></h1>
+    </div>
+
+    <div>
+        <h2> Botones de alerta </h2>
         <button onclick="mostrarAlerta()">Mostrar Alerta </button>
         <button onclick="solicitarConfirmacion()">Solicitar Confirmacion </button>
         <button onclick="solicitarInformacion()">Solicitar Informacion </button>
@@ -59,4 +64,32 @@
         <h2>Demostración de arreglo</h2>
         <button onclick="zooPen()">Enviar a consola</button>
     </div>
+
+    <div>
+        <h2>Demo forloop vegetales</h2>
+        <button onclick="veggies()">Enviar a consola</button>
+    </div>
+
+    <div>
+        <h2>Forloop imprime 1 a 10</h2>
+        <button onclick="forlooper()">Enviar a consola</button>
+    </div>
+
+    <div>
+        <h2>Objeto carro *funciona parcialmente*</h2>
+        <div>   
+            <input id="carroBrand" placeholder="Marca carro">
+            <input id="carroModel" placeholder="Modelo carro">
+            <input id="carroAno" placeholder="Año carro">
+            <button onclick="createCar()">Crear objeto</button>
+        </div>
+        <button onclick="createCar().sendToConsole()">Enviar a consola</button>
+        <p>No me deja llamar a una función dentro de otra función, no se puede imprimir a consola</p>
+    </div>    
+
+    <div>
+        <h2>Objeto carro en consola</h2>
+        <p>Si se corre todo en consola sí me deja llamar la función intentar este: </p>
+        <button onclick="carConsole()">Correr en consola</button>
+    </div>    
 </body>
