@@ -253,10 +253,13 @@ function carConsole(){
     }
 
     let carObject = new Car("Toyota", "Corolla", 2021);
-    console.log("carObject.setBrand(Honda), carObject.setModel(Civic), carObject.setYear(2020)")
+    console.log("Se crea objeto con let carObject = new Car('Toyota', 'Corolla', 2021);")
+    console.log("Se muestra con carObject.showCar()")
+    carObject.showCar();
+    console.log("Reemplazamos contenidos del objeto con: carObject.setBrand('Honda'), carObject.setModel('Civic'), carObject.setYear(2020)")
     carObject.setBrand("Honda");
     carObject.setModel("Civic");
     carObject.setYear(2020);
-    console.log("carObject.showCar()")
+    console.log("Se muestra con carObject.showCar()")
     carObject.showCar();
 }
