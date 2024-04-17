@@ -4,12 +4,59 @@
     <meta charset='utf-8'>
     <title>Tareas de Guillermo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script type = "text/javascript" src="programa1.js"></script>
 </head>
 
+<!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+
 <body>
-    <button onclick="mostrarAlerta()">Mostrar Alerta </button>
-    <button onclick="solicitarConfirmacion()">Solicitar Confirmacion </button>
-    <button onclick="solicitarInformacion()">Solicitar Informacion </button>
+    <div>
+        <button onclick="mostrarAlerta()">Mostrar Alerta </button>
+        <button onclick="solicitarConfirmacion()">Solicitar Confirmacion </button>
+        <button onclick="solicitarInformacion()">Solicitar Informacion </button>
+    </div>
+    <div>
+        <h2> Comparador de números </h2>
+        <input type="number" id="numero1" placeholder="Ingrese un número">
+        <input type="number" id="numero2" placeholder="Ingrese otro número">
+        <button onclick="compararNumeros()">Comparar</button>
+    </div>
+
+    <div>
+        <h2> Mostrar los tipos de datos </h2>
+        <button onclick="tiposDatos()">Revisar</button>
+    </div>
+
+    <div>
+        <h2> Introducir un dato y revisarlo </h2>
+        <input id="userValue" placeholder="Ingrese un dato">
+        <button onclick="revisarDato()">Revisar</button>
+    </div>
+
+    <div>
+        <h2> Ejercicio Funciones.js </h2>
+        <input id="primerNum" placeholder="Ingrese un dato">
+        <input id="segundoNum" placeholder="Ingrese un dato">
+        <input id="tercerNum" placeholder="Ingrese un dato">
+        <button onclick="suma3()">Sumar los 3</button>
+        <button onclick="mult3()">Multiplicar los 3</button>
+        <button onclick="strChecck3()">String check a los 3</button>
+    </div>
+    <div>
+        <body>Revisar vocales</body>
+        <input id="vocalCheck" placeholder="Ingrese una letra">
+        <button onclick="vocCheck()">Revisar si es vocal</button>
+    </div>
+
+    <div>
+        <h2>Revisar edades</h2>
+        <button onclick="validarEdad(19)">Validar edad 19</button>
+        <button onclick="validarEdad(18)">Validar edad 18</button>
+        <button onclick="validarEdad(17)">Validar edad 17</button>
+    </div>
+
+    <div>
+        <h2>Demostración de arreglo</h2>
+        <button onclick="zooPen()">Enviar a consola</button>
+    </div>
 </body>
